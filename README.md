@@ -1,7 +1,5 @@
 # Food Preparation Model
 
-- Task
-
 # Data Science Exercise - Prep-Time
 
 ## Problem Definition
@@ -42,3 +40,4 @@ Filename : **restaurants.csv**
 | country           | String  | Country where the restaurant is |
 | city              | String  | City where the restaurant is |
 | type_of_food      | String  | Type of food prepared by the restaurant |
+
