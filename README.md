@@ -116,19 +116,19 @@ Let us consider a small example to explain this: A customer orders a pizza which
 Another strong correlation can be seen between order value and number of items ordered which is very intuitive.  
 **Business perspective:** Deliveroo can use highly correlated features for machine learning.
 
-**Analysis 13:** Distribution of food preparation time. 
-**Observation:** Majority of the orders are being prepared within an hour. 
+**Analysis 13:** Distribution of food preparation time  
+**Observation:** Majority of the orders are being prepared within an hour.  
 **Business perspective:** Deliveroo can dispatch riders in a way so that can reach the restaurant within 60 minutes of the order being acknowledged. This time should be calculated keeping in mind the time it would take the driver partner to reach the restaurant.
 
-**Analysis 14:** Average time for food preparation time based on cities. 
+**Analysis 14:** Average time for food preparation time based on cities.  
 **Observation:** Restaurants in outskirts of metropolitan cities take longer time to prepare food.  
 **Business perspective:** While restaurants outside the metropolitan cities would take more time to be ready, Deliveroo can suffice the demand with lesser drivers, prevents overusing resources.
  
-**Analysis 15:** Average food preparation time based on the countries. 
-**Observation:** Average food preparation time in Ireland is highest among the other countries. 
+**Analysis 15:** Average food preparation time based on the countries.  
+**Observation:** Average food preparation time in Ireland is highest among the other countries.  
 **Business perspective**: Ireland seems to take more time to prepare food, so lesser drivers in Ireland would suffice the demand with respect to other France.
 
-**Analysis 16:** Time required to prepare different types of food. 
+**Analysis 16:** Time required to prepare different types of food.  
 **Observation:** As it appears from the data that Juices require the most time to prepare. This looks like a bit of anomaly. This is because of few juice orders that took a long time to prepare as evident from the data.  
 **Business perspective:** This analysis lets Deliveroo to understand which type of food needs more time to prepare and use it to update their machine learning model. Better estimation improves the food delivery process that might lead to higher rider tips – an added incentive is always amazing.
 
