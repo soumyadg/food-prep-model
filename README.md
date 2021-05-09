@@ -132,11 +132,11 @@ Another strong correlation can be seen between order value and number of items o
 **Observation:** As it appears from the data that Juices require the most time to prepare. This looks like a bit of anomaly. This is because of few juice orders that took a long time to prepare as evident from the data.  
 **Business perspective:** This analysis lets Deliveroo to understand which type of food needs more time to prepare and use it to update their machine learning model. Better estimation improves the food delivery process that might lead to higher rider tips – an added incentive is always amazing.
 
-****MACHINE LEARNING****
+## MACHINE LEARNING
 
 Now that the data cleaning and EDA has been done, the next stage would be using the data to train a machine learning model. From a high level, it’s evident that the rider dispatch system acts as a brain of Deliveroo. The rider dispatch algorithm depends on multiple factors such as the distance of the pickup point from the riders’ current location, the distance of the drop off point from the rider’s current location, time of the food preparation etc. With the data from 2015 given for this exercise, if we could predict the time a restaurant would take to prepare the food, it would let Deliveroo dispatch riders to the restaurant on time expediting the pickup and delivery process of the order. This acts as the primary motivation for this machine learning analysis.
 
-**ONE HOT ENCODING:**.   
+**ONE HOT ENCODING**  
 One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
 
 ## MODELING
