@@ -71,11 +71,11 @@ All the EDA that has been performed has been enumerated below with their respect
 **Observation:** It can be seen that UK has the lion's share of Deliveroo orders.  
 **Business perspective:** UK would need more riders than any other countries.
 
-**Analysis 3:** Distribution of transactions from each city.
+**Analysis 3:** Distribution of transactions from each city.  
 **Observation:** 78% of the transactions are only from London.  
 **Business perspective:** London would require more riders than any other cities.
 
-**Analysis 4:** Distribution of cuisine that has been ordered
+**Analysis 4:** Distribution of cuisine that has been ordered.  
 **Observation 4:** Italian, Burgers, Thai, American and Japanese has been ordered the most, accounts for almost 50% of the total count of orders.
 **Business perspective:** More drivers around these types of restaurants could be highly beneficial for Deliveroo, would facilitate faster food pick-up and drop-off.
 
@@ -83,7 +83,7 @@ All the EDA that has been performed has been enumerated below with their respect
 **Observation:** Berlin has the least average order value while London has the most. One of the reasons for this is the fact that orders in Berlin are charged in Euros which has lower exchange rates than in London. So, for similar food, customers are supposed to pay less in other countries than in the UK. Also, cities in UK such as London, Manchester, Liverpool are more expensive than other metropolitan cities from other countries.  
 **Business perspective:** Cities in the UK would provide more revenue to Deliveroo.
 
-**Analysis 6:** Distribution of Order values. 
+**Analysis 6:** Distribution of Order values.  
 **Observation:** The majority of the order values ranges between 10-40 GBP.  
 **Business perspective:** Deliveroo understands the spending pattern of customers.
 
@@ -99,7 +99,7 @@ All the EDA that has been performed has been enumerated below with their respect
 **Observation:** Even though we see that majority of the orders are placed in the evening, orders placed in the morning take more time to prepare. This might be because of less chefs available in the morning.  
 **Business perspective:** Deliveroo can convey a message to the customers ordering food during the morning shift that the food might take longer to reach them. They can incorporate that on their app by increasing the estimated time of arrival (ETA) of the order.
 
-**Analysis 10:** Counts of orders based on the day of the week. 
+**Analysis 10:** Counts of orders based on the day of the week.  
 **Observation:** Saturdays and Sundays have the highest order counts in a week.  
 **Business perspective:** Deliveroo should employ maximum riders during the weekend.
 
