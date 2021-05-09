@@ -43,7 +43,7 @@ Filename : **restaurants.csv**
 
 
 
-## Solution
+## SOLUTION
 
 ****CONTEXT:****     
 Whenever we think of Deliveroo, we think of great food delivered to our doorsteps as fast as possible, usually within half an hour. But the real story lies behind the scenes. When Deliveroo started in 2013, it had a completely different operating model to what it has now. While the outcome was exactly the same, food being delivered to your home, the mode of operation was completely different. The app let the customer order food. After the order was acknowledged by the restaurant, the restaurant took their time to prepare it and then the restaurant would call up a delivery partner who would then arrive and pick up the food and deliver to the customer. Fast forward to 2021- now Deliveroo has completely automated the process increasing its efficiency by multiple folds. The food doesn’t have to wait longer at the counter after being prepared. The customer doesn’t have to wait for long before she/he can get the food delivered and the rider partner reaches the restaurant exactly (almost) when the food is ready to be picked up.
