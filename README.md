@@ -41,7 +41,7 @@ Filename : **restaurants.csv**
 | type_of_food      | String  | Type of food prepared by the restaurant |
 
 
-
+![](/Images/2.png)
 
 ## SOLUTION
 
@@ -169,3 +169,6 @@ As future steps, there are a number of things that could be done to improve the 
 • Adding more features like historical whether data would definitely increase the model efficiency.  
 • A proper demand forecasting based on the data would increase model efficacy as well.With more data and new features as mentioned above, this model can be improved. Other machine learning algorithms like Neural Network could also be tried to reduce the prediction time errors.
  
+Basic Infographics of business in the Food Delivery Space:
+![](/Images/3.png)
+Picture Courtesy : https://www.apptunix.com/blog/online-food-delivery-industry/
