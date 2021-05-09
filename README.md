@@ -65,84 +65,91 @@ One of the most important things for any machine learning analysis is the Explor
 All the EDA that has been performed has been enumerated below with their respective observations and the business perspective associated with it:
 
 **Analysis 1:** Order counts by the hour.  
-**Observation:** Most orders are placed between 6:00 pm to 9:00 pm.
+**Observation:** Most orders are placed between 6:00 pm to 9:00 pm.  
+**Business perspective:** It is imperative to realize when DELIVEROO receives most requests for food delivery as they would like more delivery partners on the road to serve its customers better and faster during these peak hours.
+
 
 **Analysis 2:** Count of orders based on the countries.  
 **Observation:** It can be seen that UK has the lion's share of Deliveroo orders.  
 **Business perspective:** UK would need more riders than any other countries.
 
 **Analysis 3:** Distribution of transactions from each city.
-**Observation:** 78% of the transactions are only from London.
+**Observation:** 78% of the transactions are only from London.  
+**Business perspective:** London would require more riders than any other cities.
 
 **Analysis 4:** Distribution of cuisine that has been ordered
 **Observation 4:** Italian, Burgers, Thai, American and Japanese has been ordered the most, accounts for almost 50% of the total count of orders.
 **Business perspective:** More drivers around these types of restaurants could be highly beneficial for Deliveroo, would facilitate faster food pick-up and drop-off.
 
-**Analysis 5:** Mean order-values in GBP based on the cities from different countries. 
-**Observation:** Berlin has the least average order value while London has the most. One of the reasons for this is the fact that orders in Berlin are charged in Euros which has lower exchange rates than in London. So, for similar food, customers are supposed to pay less in other countries than in the UK. Also, cities in UK such as London, Manchester, Liverpool are more expensive than other metropolitan cities from other countries.
+**Analysis 5:** Mean order-values in GBP based on the cities from different countries.  
+**Observation:** Berlin has the least average order value while London has the most. One of the reasons for this is the fact that orders in Berlin are charged in Euros which has lower exchange rates than in London. So, for similar food, customers are supposed to pay less in other countries than in the UK. Also, cities in UK such as London, Manchester, Liverpool are more expensive than other metropolitan cities from other countries.  
 **Business perspective:** Cities in the UK would provide more revenue to Deliveroo.
 
-**Analysis 6:** Distribution of Order values
-**Observation:** The majority of the order values ranges between 10-40 GBP. 
+**Analysis 6:** Distribution of Order values. 
+**Observation:** The majority of the order values ranges between 10-40 GBP.  
 **Business perspective:** Deliveroo understands the spending pattern of customers.
 
-**Analysis 7:** Preparation time of food in hours based on the price range of restaurants.
-**Observation:** We see that the more expensive the restaurant is, the more time it takes to prepare the food.
+**Analysis 7:** Preparation time of food in hours based on the price range of restaurants.  
+**Observation:** We see that the more expensive the restaurant is, the more time it takes to prepare the food.  
 **Business perspective:** Deliveroo could dispatch more riders towards restaurants which are in-expensive like ready-made or fast-food restaurants.
 
-**Analysis 8:** Created a bucket based on the hour of order.
-**Observation:** The maximum number of orders are placed in the Evening. 
+**Analysis 8:** Created a bucket based on the hour of order.  
+**Observation:** The maximum number of orders are placed in the Evening.  
 **Business perspective:** Deliveroo should dispatch maximum riders in the evening.
 
-**Analysis 9:** Average food preparation time based on the shifts in the day.
-**Observation:** Even though we see that majority of the orders are placed in the evening, orders placed in the morning take more time to prepare. This might be because of less chefs available in the morning.
+**Analysis 9:** Average food preparation time based on the shifts in the day.  
+**Observation:** Even though we see that majority of the orders are placed in the evening, orders placed in the morning take more time to prepare. This might be because of less chefs available in the morning.  
 **Business perspective:** Deliveroo can convey a message to the customers ordering food during the morning shift that the food might take longer to reach them. They can incorporate that on their app by increasing the estimated time of arrival (ETA) of the order.
 
-**Analysis 10:** Counts of orders based on the day of the week
-**Observation:** Saturdays and Sundays have the highest order counts in a week 
+**Analysis 10:** Counts of orders based on the day of the week. 
+**Observation:** Saturdays and Sundays have the highest order counts in a week.  
 **Business perspective:** Deliveroo should employ maximum riders during the weekend.
 
-**Analysis 11:** Average food preparation time based on the day of the week
-**Observation:** Sundays and Saturdays have the least food preparation time, probably restaurants hire extra chefs to mitigate the extra demand on the weekends.
+**Analysis 11:** Average food preparation time based on the day of the week.  
+**Observation:** Sundays and Saturdays have the least food preparation time, probably restaurants hire extra chefs to mitigate the extra demand on the weekends.  
 **Business perspective:** As food prepared on weekends take less time, Deliveroo can dispatch maximum rider partners during the weekends. Weekends bring in more business for the restaurants and more revenue for the riders and Deliveroo.
 
-**Analysis 12:** Heatmap to check out the correlation between different features of the dataset 
-**Observation:** The order value in pounds has a correlation with price per item. Let us consider a small example to explain this: A customer orders a pizza which costs £10. So, the price per item for such an order is 10. Now if another customer orders the same pizza and adds a bottle of Coca-Cola for £2, the price per item goes to £6. This correlation can be explained from the heatmap.
-Another strong correlation can be seen between order value and number of items ordered which is very intuitive.
+**Analysis 12:** Heatmap to check out the correlation between different features of the dataset. 
+**Observation:** The order value in pounds has a correlation with price per item. Let us consider a small example to explain this: A customer orders a pizza which costs £10. So, the price per item for such an order is 10. Now if another customer orders the same pizza and adds a bottle of Coca-Cola for £2, the price per item goes to £6. This correlation can be explained from the heatmap.  
+
+**Analysis 12:** Heatmap to check out the correlation between different features of the dataset.  
+**Observation:** The order value in pounds has a correlation with price per item.
+Let us consider a small example to explain this: A customer orders a pizza which costs £10. So, the price per item for such an order is 10. Now if another customer orders the same pizza and adds a bottle of Coca-Cola for £2, the price per item goes to £6. This correlation can be explained from the heatmap.
+Another strong correlation can be seen between order value and number of items ordered which is very intuitive.  
 **Business perspective:** Deliveroo can use highly correlated features for machine learning.
 
-**Analysis 13:** Distribution of food preparation time
-**Observation:** Majority of the orders are being prepared within an hour
+**Analysis 13:** Distribution of food preparation time. 
+**Observation:** Majority of the orders are being prepared within an hour. 
 **Business perspective:** Deliveroo can dispatch riders in a way so that can reach the restaurant within 60 minutes of the order being acknowledged. This time should be calculated keeping in mind the time it would take the driver partner to reach the restaurant.
 
-**Analysis 14:** Average time for food preparation time based on cities
-**Observation:** Restaurants in outskirts of metropolitan cities take longer time to prepare food.
+**Analysis 14:** Average time for food preparation time based on cities. 
+**Observation:** Restaurants in outskirts of metropolitan cities take longer time to prepare food.  
 **Business perspective:** While restaurants outside the metropolitan cities would take more time to be ready, Deliveroo can suffice the demand with lesser drivers, prevents overusing resources.
  
-**Analysis 15:** Average food preparation time based on the countries
-**Observation:** Average food preparation time in Ireland is highest among the other countries 
+**Analysis 15:** Average food preparation time based on the countries. 
+**Observation:** Average food preparation time in Ireland is highest among the other countries. 
 **Business perspective**: Ireland seems to take more time to prepare food, so lesser drivers in Ireland would suffice the demand with respect to other France.
 
-**Analysis 16:** Time required to prepare different types of food
-**Observation:** As it appears from the data that Juices require the most time to prepare. This looks like a bit of anomaly. This is because of few juice orders that took a long time to prepare as evident from the data.
+**Analysis 16:** Time required to prepare different types of food. 
+**Observation:** As it appears from the data that Juices require the most time to prepare. This looks like a bit of anomaly. This is because of few juice orders that took a long time to prepare as evident from the data.  
 **Business perspective:** This analysis lets Deliveroo to understand which type of food needs more time to prepare and use it to update their machine learning model. Better estimation improves the food delivery process that might lead to higher rider tips – an added incentive is always amazing.
 
 ****MACHINE LEARNING****
-
 Now that the data cleaning and EDA has been done, the next stage would be using the data to train a machine learning model. From a high level, it’s evident that the rider dispatch system acts as a brain of Deliveroo. The rider dispatch algorithm depends on multiple factors such as the distance of the pickup point from the riders’ current location, the distance of the drop off point from the rider’s current location, time of the food preparation etc. With the data from 2015 given for this exercise, if we could predict the time a restaurant would take to prepare the food, it would let Deliveroo dispatch riders to the restaurant on time expediting the pickup and delivery process of the order. This acts as the primary motivation for this machine learning analysis.
 
-**One Hot Encoding:** One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
+**One Hot Encoding:**  
+One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
 
 ****MODELING****
 
-**Algorithms:**
+**Algorithms:**. 
 While the objective of the modeling exercise is to predict food preparation time, we will be using regression-based analysis techniques. Most popular ones are Linear Regression, Polynomial Regression among others. In this analysis, few of such machine learning techniques have been used.
 
-**Training and Test:**
+**Training and Test:**. 
 The data has been split into train and test datasets with 60% data used for training and 40% used for testing purpose.
 Machine Learning Take Home – Deliveroo used case. Submitted by Soumya Dasgupta
  
-**METRICS**
+**METRICS**. 
 The most common metrics used for the regression analysis are Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. These metrics have been used to determine the efficacy of the machine learning techniques used in the analysis.
 A scatterplot of test-data and predicted data for each of the Machine Learning algorithm has been shown as well. A good prediction would have points lying on the y=x line.
   
