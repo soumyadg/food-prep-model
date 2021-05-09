@@ -64,11 +64,11 @@ One of the most important things for any machine learning analysis is the Explor
 
 All the EDA that has been performed has been enumerated below with their respective observations and the business perspective associated with it:
 
-**Analysis 1:** Order counts by the hour.
+**Analysis 1:** Order counts by the hour.  
 **Observation:** Most orders are placed between 6:00 pm to 9:00 pm.
 
-**Analysis 2:** Count of orders based on the countries.
-**Observation:** It can be seen that UK has the lion's share of Deliveroo orders. 
+**Analysis 2:** Count of orders based on the countries.  
+**Observation:** It can be seen that UK has the lion's share of Deliveroo orders.  
 **Business perspective:** UK would need more riders than any other countries.
 
 **Analysis 3:** Distribution of transactions from each city.
