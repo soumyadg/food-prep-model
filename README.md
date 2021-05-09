@@ -171,7 +171,7 @@ As future steps, there are a number of things that could be done to improve the 
  
 
 <p align="center">
-    ****Basic Infographics of business in the Food Delivery Space:****
+    **Basic Infographics of business in the Food Delivery Space**
 </p>
 
 ![](/Images/3.jpeg)
