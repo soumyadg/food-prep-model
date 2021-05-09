@@ -137,10 +137,10 @@ One Hot Encoding is generally used to deal with categorical variables in the dat
 
 ## MODELING
 
-**Algorithms:**   
+**ALGORITHMS:**   
 While the objective of the modeling exercise is to predict food preparation time, we will be using regression-based analysis techniques. Most popular ones are Linear Regression, Polynomial Regression among others. In this analysis, few of such machine learning techniques have been used.
 
-**Training and Test:**  
+**TRAIN AND TEST:**  
 The data has been split into train and test datasets with 60% data used for training and 40% used for testing purpose.
 Machine Learning Take Home – Deliveroo used case. Submitted by Soumya Dasgupta
  
