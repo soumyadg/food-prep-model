@@ -50,14 +50,14 @@ Filename : **restaurants.csv**
 Whenever we think of Deliveroo, we think of great food delivered to our doorsteps as fast as possible, usually within half an hour. But the real story lies behind the scenes. When Deliveroo started in 2013, it had a completely different operating model to what it has now. While the outcome was exactly the same, food being delivered to your home, the mode of operation was completely different. The app let the customer order food. After the order was acknowledged by the restaurant, the restaurant took their time to prepare it and then the restaurant would call up a delivery partner who would then arrive and pick up the food and deliver to the customer. Fast forward to 2021- now Deliveroo has completely automated the process increasing its efficiency by multiple folds. The food doesn’t have to wait longer at the counter after being prepared. The customer doesn’t have to wait for long before she/he can get the food delivered and the rider partner reaches the restaurant exactly (almost) when the food is ready to be picked up.
 Deliveroo operates one of the most complicated marketplaces with three different aspects – the riders, the restaurants and the customers. While millions of orders are placed through the day, in over 13 countries and 200 cities worldwide, the secret to the solution are the data and the intense machine learning algorithms that run in the back, matching riders and restaurants allowing orders to reach the customer doorsteps on time.
 
-****DATA****
+****DATA****    
 The data that was provided for this take home comprised of Deliveroo orders table and a restaurant table from 22 different cities from 4 different countries – UK, Germany, Ireland and France. While the restaurant table has the ‘restaurants_id’ as the primary key with other columns being country, city and type of food, the order data table has 6 columns - order acknowledge time, order ready time, value of the order in gbp, restaurant id, number of items ordered and preparation time in seconds.
 
-****DATA CLEANING****
+****DATA CLEANING****     
 Data Cleaning refers to the process of correcting bits and parts of data to ensure we achieve high data-integrity. For this data multiple steps were undertaken, such as importing and joining the raw csv files on the primary key ‘restaurant_id’, Converting order time and order ready time columns to data-time object for further analysis etc as shown in the jupyter notebook file.
 Machine Learning Take Home – Deliveroo used case.
  
-****EXPLORATORY DATA ANALYSIS (EDA)****
+****EXPLORATORY DATA ANALYSIS (EDA)****.    
 One of the most important things for any machine learning analysis is the Exploratory Data Analysis. EDA refers to the most critical process of machine learning – to gauge the data, perform initial investigations, discover trends, spot anomalies and to check patterns using statistical summaries and graphical representations. Similarly for this data, an intensive EDA was performed to gain insights before getting our hands dirty with it.
 
 All the EDA that has been performed has been enumerated below with their respective observations and the business perspective associated with it:
@@ -65,7 +65,6 @@ All the EDA that has been performed has been enumerated below with their respect
 **Analysis 1:** Order counts by the hour.  
 **Observation:** Most orders are placed between 6:00 pm to 9:00 pm.  
 **Business perspective:** It is imperative to realize when DELIVEROO receives most requests for food delivery as they would like more delivery partners on the road to serve its customers better and faster during these peak hours.
-
 
 **Analysis 2:** Count of orders based on the countries.  
 **Observation:** It can be seen that UK has the lion's share of Deliveroo orders.  
