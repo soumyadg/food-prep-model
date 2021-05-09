@@ -161,12 +161,10 @@ The output of the Polynomial Regression shows a Root Mean Squared Error of 1837 
 ## CONCLUSION AND FUTURE STEPS
 
 The analysis above deals with predicting the estimate a restaurant takes to prepare food. A number of steps were undertaken like data importing, cleaning and exploratory data analysis before identifying machine learning models. Based on a month of data, 5 models were tried for prediction, out of which Polynomial Regression technique proved to have the least Root Mean Squared Error and hence it was chosen to proceed with the same.
-As future steps, there are a number of things that could be done to improve the prediction of the model and they are enumerated below:
-• As this analysis is based on 30 days of data, all but one rows from the month of June while the other from the month of July, more data would definitely do well towards the waning of the error. Generally, a year of data would do justice to the model.
-• The data should be bucketed for different countries and the same model could be run.
-• The data should be bucketed for different cities and the same model could be run.
-• Adding more features like historical whether data would definitely increase the
-model efficiency.
-• A proper demand forecasting based on the data would increase model efficacy as
-well.With more data and new features as mentioned above, this model can be improved. Other machine learning algorithms like Neural Network could also be tried to reduce the prediction time errors.
+As future steps, there are a number of things that could be done to improve the prediction of the model and they are enumerated below:  
+• As this analysis is based on 30 days of data, all but one rows from the month of June while the other from the month of July, more data would definitely do well towards the waning of the error. Generally, a year of data would do justice to the model.  
+• The data should be bucketed for different countries and the same model could be run.  
+• The data should be bucketed for different cities and the same model could be run.  
+• Adding more features like historical whether data would definitely increase the model efficiency.  
+• A proper demand forecasting based on the data would increase model efficacy as well.With more data and new features as mentioned above, this model can be improved. Other machine learning algorithms like Neural Network could also be tried to reduce the prediction time errors.
  
