@@ -137,14 +137,14 @@ One Hot Encoding is generally used to deal with categorical variables in the dat
 
 ## MODELING
 
-**Algorithms:**. 
+**Algorithms:**   
 While the objective of the modeling exercise is to predict food preparation time, we will be using regression-based analysis techniques. Most popular ones are Linear Regression, Polynomial Regression among others. In this analysis, few of such machine learning techniques have been used.
 
-**Training and Test:**. 
+**Training and Test:**  
 The data has been split into train and test datasets with 60% data used for training and 40% used for testing purpose.
 Machine Learning Take Home – Deliveroo used case. Submitted by Soumya Dasgupta
  
-**METRICS**. 
+**METRICS:**     
 The most common metrics used for the regression analysis are Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. These metrics have been used to determine the efficacy of the machine learning techniques used in the analysis.
 A scatterplot of test-data and predicted data for each of the Machine Learning algorithm has been shown as well. A good prediction would have points lying on the y=x line.
   
