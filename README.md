@@ -135,6 +135,8 @@ Now that the data cleaning and EDA has been done, the next stage would be using 
 **ONE HOT ENCODING:**  
 One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
 
+![](/Images/4.jpeg)
+
 ## MODELING
 
 **ALGORITHMS:**   
