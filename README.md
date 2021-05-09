@@ -139,7 +139,7 @@ Now that the data cleaning and EDA has been done, the next stage would be using 
 **ONE HOT ENCODING:**.   
 One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
 
-****MODELING****
+## MODELING
 
 **Algorithms:**. 
 While the objective of the modeling exercise is to predict food preparation time, we will be using regression-based analysis techniques. Most popular ones are Linear Regression, Polynomial Regression among others. In this analysis, few of such machine learning techniques have been used.
@@ -158,11 +158,11 @@ A scatterplot of test-data and predicted data for each of the Machine Learning a
 From the table it can be seen that Mean Squared Error and Root Mean Squared Error is least for the Polynomial Regression machine learning technique and hence this would be used for the prediction purposes. The main reason for choosing these two metrics is that these are industry standard metrics to evaluate performance. The plot of test data and the predicted results falls closely to the y=x line for polynomial regression which isn’t the case for other machine learning algorithms.
 While other algorithms also could have been tried, computation time for the algorithms and submission deadline has been prime reasons while only these 5 techniques could be tested.
 
-**BUSINESS IMPLICATIONS**
+## BUSINESS IMPLICATIONS
 
 The output of the Polynomial Regression shows a Root Mean Squared Error of 1837 seconds which is almost half an hour. For a company like Deliveroo this might lead to considerable losses to all the parties involved – the restaurant, the driver the customer and Deliveroo. Hence this model needs to be improved.
  
-**CONCLUSION AND FUTURE STEPS**
+## CONCLUSION AND FUTURE STEPS
 
 The analysis above deals with predicting the estimate a restaurant takes to prepare food. A number of steps were undertaken like data importing, cleaning and exploratory data analysis before identifying machine learning models. Based on a month of data, 5 models were tried for prediction, out of which Polynomial Regression technique proved to have the least Root Mean Squared Error and hence it was chosen to proceed with the same.
 As future steps, there are a number of things that could be done to improve the prediction of the model and they are enumerated below:
