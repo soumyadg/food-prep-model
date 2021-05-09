@@ -2,14 +2,14 @@
 # Data Science Exercise - Food Preparation Time Model
 
 ## Problem Definition
-A food company is committed to providing a delivery experience that delights our customers while still being incredibly efficient. Thus it is critical that we have the best possible model of how long it takes for a food order to be prepared. This allows us to ensure that a rider arrives at a restaurant to pick up an order exactly when the food is ready.
+Deliveroo is committed to providing a delivery experience that delights our customers while still being incredibly efficient. Thus it is critical that we have the best possible model of how long it takes for a food order to be prepared. This allows us to ensure that a rider arrives at a restaurant to pick up an order exactly when the food is ready.
 The aim of this exercise is to use historical data to predict the food preparation time for each order.
 
 ## Modelling Exercise
 1. Use any tool or language you would prefer.
 2. Perform any cleaning, exploration and/or visualisation on the provided data (orders.csv and restaurants.csv)
 3. Build a model that estimates the time it takes for a restaurant to prepare the food for an order.
-4. Evaluate the performance of this model. If you were a data scientist at the food delivery company working on this (i.e. if this was your day job and not just part of an interview process!), explain your next steps with this model considering its potential applications within the food delivery system.
+4. Evaluate the performance of this model. If you were a data scientist at the Deliveroo working on this (i.e. if this was your day job and not just part of an interview process!), explain your next steps with this model considering its potential applications within the food delivery system.
 
 Feel free to include a list of additional ideas you would explore if you had more time to work on this problem. You will have the opportunity at an onsite interview to explain your approach and answer further questions on it. We are looking for sensible approach that does the basics well, not a showcase of novel techniques. The text is as important as the code, it's important that you guide us through your thought process. What are the key take-aways from your EDA? Why some feature engineering makes sense? Why did you pick that algorithm to solve the task? What are the business implications of the results of your modelling?
 
