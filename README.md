@@ -64,76 +64,43 @@ One of the most important things for any machine learning analysis is the Explor
 
 All the EDA that has been performed has been enumerated below with their respective observations and the business perspective associated with it:
 
-**Analysis 1:** Order counts by the hour
-
+**Analysis 1:** Order counts by the hour.
 **Observation:** Most orders are placed between 6:00 pm to 9:00 pm.
 
-
 **Analysis 2:** Count of orders based on the countries.
-
-**Observation:** It can be seen that UK has the lion's share of Deliveroo orders. Business perspective: UK would need more riders than any other countries.
-
+**Observation:** It can be seen that UK has the lion's share of Deliveroo orders. 
+**Business perspective:** UK would need more riders than any other countries.
 
 **Analysis 3:** Distribution of transactions from each city.
-
 **Observation:** 78% of the transactions are only from London.
 
-
-
 **Analysis 4:** Distribution of cuisine that has been ordered
-
 **Observation 4:** Italian, Burgers, Thai, American and Japanese has been ordered the most, accounts for almost 50% of the total count of orders.
-
 **Business perspective:** More drivers around these types of restaurants could be highly beneficial for Deliveroo, would facilitate faster food pick-up and drop-off.
 
-
 **Analysis 5:** Mean order-values in GBP based on the cities from different countries. 
-
 **Observation:** Berlin has the least average order value while London has the most. One of the reasons for this is the fact that orders in Berlin are charged in Euros which has lower exchange rates than in London. So, for similar food, customers are supposed to pay less in other countries than in the UK. Also, cities in UK such as London, Manchester, Liverpool are more expensive than other metropolitan cities from other countries.
-
 **Business perspective:** Cities in the UK would provide more revenue to Deliveroo.
 
-
-
 **Analysis 6:** Distribution of Order values
-
 **Observation:** The majority of the order values ranges between 10-40 GBP. 
-
 **Business perspective:** Deliveroo understands the spending pattern of customers.
 
-
-
 **Analysis 7:** Preparation time of food in hours based on the price range of restaurants.
-
 **Observation:** We see that the more expensive the restaurant is, the more time it takes to prepare the food.
-
 **Business perspective:** Deliveroo could dispatch more riders towards restaurants which are in-expensive like ready-made or fast-food restaurants.
 
-
- 
 **Analysis 8:** Created a bucket based on the hour of order.
-
 **Observation:** The maximum number of orders are placed in the Evening. 
-
 **Business perspective:** Deliveroo should dispatch maximum riders in the evening.
 
-
-
 **Analysis 9:** Average food preparation time based on the shifts in the day.
-
 **Observation:** Even though we see that majority of the orders are placed in the evening, orders placed in the morning take more time to prepare. This might be because of less chefs available in the morning.
-
 **Business perspective:** Deliveroo can convey a message to the customers ordering food during the morning shift that the food might take longer to reach them. They can incorporate that on their app by increasing the estimated time of arrival (ETA) of the order.
 
-
-
 **Analysis 10:** Counts of orders based on the day of the week
-
 **Observation:** Saturdays and Sundays have the highest order counts in a week 
-
 **Business perspective:** Deliveroo should employ maximum riders during the weekend.
-
-
 
 **Analysis 11:** Average food preparation time based on the day of the week
 **Observation:** Sundays and Saturdays have the least food preparation time, probably restaurants hire extra chefs to mitigate the extra demand on the weekends.
