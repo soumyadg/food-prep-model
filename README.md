@@ -45,18 +45,18 @@ Filename : **restaurants.csv**
 
 ## Solution
 
-****CONTEXT****     
+****CONTEXT:****     
 Whenever we think of Deliveroo, we think of great food delivered to our doorsteps as fast as possible, usually within half an hour. But the real story lies behind the scenes. When Deliveroo started in 2013, it had a completely different operating model to what it has now. While the outcome was exactly the same, food being delivered to your home, the mode of operation was completely different. The app let the customer order food. After the order was acknowledged by the restaurant, the restaurant took their time to prepare it and then the restaurant would call up a delivery partner who would then arrive and pick up the food and deliver to the customer. Fast forward to 2021- now Deliveroo has completely automated the process increasing its efficiency by multiple folds. The food doesn’t have to wait longer at the counter after being prepared. The customer doesn’t have to wait for long before she/he can get the food delivered and the rider partner reaches the restaurant exactly (almost) when the food is ready to be picked up.
 Deliveroo operates one of the most complicated marketplaces with three different aspects – the riders, the restaurants and the customers. While millions of orders are placed through the day, in over 13 countries and 200 cities worldwide, the secret to the solution are the data and the intense machine learning algorithms that run in the back, matching riders and restaurants allowing orders to reach the customer doorsteps on time.
 
-****DATA****    
+****DATA:****    
 The data that was provided for this take home comprised of Deliveroo orders table and a restaurant table from 22 different cities from 4 different countries – UK, Germany, Ireland and France. While the restaurant table has the ‘restaurants_id’ as the primary key with other columns being country, city and type of food, the order data table has 6 columns - order acknowledge time, order ready time, value of the order in gbp, restaurant id, number of items ordered and preparation time in seconds.
 
-****DATA CLEANING****     
+****DATA CLEANING:****     
 Data Cleaning refers to the process of correcting bits and parts of data to ensure we achieve high data-integrity. For this data multiple steps were undertaken, such as importing and joining the raw csv files on the primary key ‘restaurant_id’, Converting order time and order ready time columns to data-time object for further analysis etc as shown in the jupyter notebook file.
 Machine Learning Take Home – Deliveroo used case.
  
-****EXPLORATORY DATA ANALYSIS (EDA)****.    
+****EXPLORATORY DATA ANALYSIS (EDA):****.    
 One of the most important things for any machine learning analysis is the Exploratory Data Analysis. EDA refers to the most critical process of machine learning – to gauge the data, perform initial investigations, discover trends, spot anomalies and to check patterns using statistical summaries and graphical representations. Similarly for this data, an intensive EDA was performed to gain insights before getting our hands dirty with it. All the EDA that has been performed has been enumerated below with their respective observations and the business perspective associated with it:
 
 **Analysis 1:** Order counts by the hour.  
@@ -132,7 +132,7 @@ Another strong correlation can be seen between order value and number of items o
 
 Now that the data cleaning and EDA has been done, the next stage would be using the data to train a machine learning model. From a high level, it’s evident that the rider dispatch system acts as a brain of Deliveroo. The rider dispatch algorithm depends on multiple factors such as the distance of the pickup point from the riders’ current location, the distance of the drop off point from the rider’s current location, time of the food preparation etc. With the data from 2015 given for this exercise, if we could predict the time a restaurant would take to prepare the food, it would let Deliveroo dispatch riders to the restaurant on time expediting the pickup and delivery process of the order. This acts as the primary motivation for this machine learning analysis.
 
-**ONE HOT ENCODING**  
+**ONE HOT ENCODING:**  
 One Hot Encoding is generally used to deal with categorical variables in the data. The word encoding refers to representing each piece of data so that a machine learning algorithm can understand. For this exercise, three categorical features – Time Bucket, Price and Country has been one hot encoded. The reason for including only these three categorical variables is that they represent only 4 types of distinct variables each. This leads to appending 12 extra dimensions to the dataset. Other variable such as type of food has not been encoded as it would increase the dimension of the data set by 83 columns (there are 83 types of ‘type_of_food’) and might affect lead to issues like parallelism and multi-collinearity in high dimensions.
 
 ## MODELING
@@ -150,7 +150,7 @@ A scatterplot of test-data and predicted data for each of the Machine Learning a
   
 ![](/Images/1.png)
   
-  
+
 From the table it can be seen that Mean Squared Error and Root Mean Squared Error is least for the Polynomial Regression machine learning technique and hence this would be used for the prediction purposes. The main reason for choosing these two metrics is that these are industry standard metrics to evaluate performance. The plot of test data and the predicted results falls closely to the y=x line for polynomial regression which isn’t the case for other machine learning algorithms.
 While other algorithms also could have been tried, computation time for the algorithms and submission deadline has been prime reasons while only these 5 techniques could be tested.
 
