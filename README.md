@@ -1,6 +1,5 @@
-# Food Preparation Model
 
-# Data Science Exercise - Prep-Time
+# Data Science Exercise - Food Preparation Time Model
 
 ## Problem Definition
 A food company is committed to providing a delivery experience that delights our customers while still being incredibly efficient. Thus it is critical that we have the best possible model of how long it takes for a food order to be prepared. This allows us to ensure that a rider arrives at a restaurant to pick up an order exactly when the food is ready.
