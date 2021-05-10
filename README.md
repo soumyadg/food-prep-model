@@ -1,5 +1,5 @@
 
-# Data Science Exercise - Deliveroo Food Preparation Time Model
+# Data Science Exercise - Deliveroo Food Preparation Time Model.
 
 ## Problem Definition
 Deliveroo is committed to providing a delivery experience that delights our customers while still being incredibly efficient. Thus it is critical that we have the best possible model of how long it takes for a food order to be prepared. This allows us to ensure that a rider arrives at a restaurant to pick up an order exactly when the food is ready.
