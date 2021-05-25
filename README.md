@@ -142,7 +142,7 @@ While the objective of the modeling exercise is to predict food preparation time
 
 **TRAIN AND TEST:**  
 The data has been split into train and test datasets with 60% data used for training and 40% used for testing purpose.
-Machine Learning Take Home – Deliveroo used case. Submitted by Soumya Dasgupta
+Machine Learning Take Home – Deliveroo used case.
  
 **METRICS:**     
 The most common metrics used for the regression analysis are Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. These metrics have been used to determine the efficacy of the machine learning techniques used in the analysis.
